@@ -1,0 +1,7 @@
+2024-07-16 16:29:49,266 - INFO - Running script: src/model_evaluation.py
+2024-07-16 16:29:49,465 - ERROR - Error running script: src/model_evaluation.py
+2024-07-16 16:29:49,465 - ERROR - Command '['python', 'src/model_evaluation.py']' returned non-zero exit status 2.
+2024-07-16 16:30:45,558 - INFO - Running script: src/evaluate.py
+2024-07-16 16:30:47,930 - INFO - Successfully ran script: src/evaluate.py
+2024-07-16 16:30:47,930 - INFO - Running script: src/gen_report.py
+2024-07-16 16:30:50,163 - INFO - Successfully ran script: src/gen_report.py

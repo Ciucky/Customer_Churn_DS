@@ -1,0 +1,398 @@
+2024-06-30 17:18:33,746 - INFO - Loading data from data/raw/Telco_customer_churn.xlsx
+2024-06-30 17:18:33,751 - ERROR - Error loading data: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2024-06-30 17:19:20,384 - INFO - Loading data from data/raw/Telco_customer_churn.xlsx
+2024-06-30 17:19:20,386 - ERROR - Error loading data: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2024-06-30 17:19:46,451 - INFO - Loading data from data/raw/Telco_customer_churn.xlsx
+2024-06-30 17:19:48,242 - INFO - Data loaded successfully
+2024-06-30 17:19:48,243 - INFO - Starting data preprocessing
+2024-06-30 17:19:48,268 - INFO - Data preprocessing completed
+2024-06-30 17:19:48,315 - INFO - Processed data saved to data/processed/processed_data.csv
+2024-06-30 17:30:51,732 - INFO - data_preprocessing.py - Loading data from data/raw/Telco_customer_churn.xlsx
+2024-06-30 17:30:53,495 - INFO - data_preprocessing.py - Data loaded successfully
+2024-06-30 17:30:53,495 - INFO - data_preprocessing.py - Starting data preprocessing
+2024-06-30 17:30:53,517 - INFO - data_preprocessing.py - Data preprocessing completed
+2024-06-30 17:30:53,545 - INFO - data_preprocessing.py - Processed data saved to data/processed/processed_data.csv
+2024-06-30 17:43:00,415 - INFO - data_preprocessing.py - Loading data from data/raw/Telco_customer_churn.xlsx
+2024-06-30 17:43:02,243 - INFO - data_preprocessing.py - Data loaded successfully
+2024-06-30 17:43:02,243 - INFO - data_preprocessing.py - Starting data preprocessing
+2024-06-30 17:43:02,267 - INFO - data_preprocessing.py - Data preprocessing completed
+2024-06-30 17:43:02,296 - INFO - data_preprocessing.py - Processed data saved to data/processed/processed_data.csv
+2024-06-30 18:41:45,626 - INFO - exploratory_data_analysis.py - Loading data from data/processed/processed_data.csv
+2024-06-30 18:41:45,637 - INFO - exploratory_data_analysis.py - Data loaded successfully from data/processed/processed_data.csv
+2024-06-30 18:41:45,637 - INFO - exploratory_data_analysis.py - Starting Exploratory Data Analysis (EDA)
+2024-06-30 18:41:45,637 - INFO - exploratory_data_analysis.py - Generating summary statistics
+2024-06-30 18:42:04,343 - INFO - exploratory_data_analysis.py - Loading data from data/processed/processed_data.csv
+2024-06-30 18:42:04,351 - INFO - exploratory_data_analysis.py - Data loaded successfully from data/processed/processed_data.csv
+2024-06-30 18:42:04,351 - INFO - exploratory_data_analysis.py - Starting Exploratory Data Analysis (EDA)
+2024-06-30 18:42:04,351 - INFO - exploratory_data_analysis.py - Generating summary statistics
+2024-06-30 18:42:04,358 - INFO - exploratory_data_analysis.py - Summary statistics saved to reports/summary_statistics.csv
+2024-06-30 18:42:04,358 - INFO - exploratory_data_analysis.py - Generating data distribution plots
+2024-06-30 18:42:36,471 - INFO - exploratory_data_analysis.py - Loading data from data/processed/processed_data.csv
+2024-06-30 18:42:36,480 - INFO - exploratory_data_analysis.py - Data loaded successfully from data/processed/processed_data.csv
+2024-06-30 18:42:36,480 - INFO - exploratory_data_analysis.py - Starting Exploratory Data Analysis (EDA)
+2024-06-30 18:42:36,480 - INFO - exploratory_data_analysis.py - Generating summary statistics
+2024-06-30 18:42:36,487 - INFO - exploratory_data_analysis.py - Summary statistics saved to reports/summary_statistics.csv
+2024-06-30 18:42:36,487 - INFO - exploratory_data_analysis.py - Generating data distribution plots
+2024-06-30 18:46:15,776 - INFO - exploratory_data_analysis.py - Loading data from data/processed/processed_data.csv
+2024-06-30 18:46:15,784 - INFO - exploratory_data_analysis.py - Data loaded successfully from data/processed/processed_data.csv
+2024-06-30 18:46:15,784 - INFO - exploratory_data_analysis.py - Starting Exploratory Data Analysis (EDA)
+2024-06-30 18:46:15,784 - INFO - exploratory_data_analysis.py - Data columns: Index(['Latitude', 'Longitude', 'Tenure Months', 'Monthly Charges',
+       'Total Charges', 'Churn Value', 'Churn Score', 'CLTV', 'Gender_Male',
+       'Senior Citizen_Yes', 'Partner_Yes', 'Dependents_Yes',
+       'Phone Service_Yes', 'Multiple Lines_No phone service',
+       'Multiple Lines_Yes', 'Internet Service_Fiber optic',
+       'Internet Service_No', 'Online Security_No internet service',
+       'Online Security_Yes', 'Online Backup_No internet service',
+       'Online Backup_Yes', 'Device Protection_No internet service',
+       'Device Protection_Yes', 'Tech Support_No internet service',
+       'Tech Support_Yes', 'Streaming TV_No internet service',
+       'Streaming TV_Yes', 'Streaming Movies_No internet service',
+       'Streaming Movies_Yes', 'Contract_One year', 'Contract_Two year',
+       'Paperless Billing_Yes', 'Payment Method_Credit card (automatic)',
+       'Payment Method_Electronic check', 'Payment Method_Mailed check',
+       'Churn Reason_Attitude of support person',
+       'Churn Reason_Competitor had better devices',
+       'Churn Reason_Competitor made better offer',
+       'Churn Reason_Competitor offered higher download speeds',
+       'Churn Reason_Competitor offered more data', 'Churn Reason_Deceased',
+       'Churn Reason_Don't know', 'Churn Reason_Extra data charges',
+       'Churn Reason_Lack of affordable download/upload speed',
+       'Churn Reason_Lack of self-service on Website',
+       'Churn Reason_Limited range of services',
+       'Churn Reason_Long distance charges', 'Churn Reason_Moved',
+       'Churn Reason_Network reliability',
+       'Churn Reason_Poor expertise of online support',
+       'Churn Reason_Poor expertise of phone support',
+       'Churn Reason_Price too high', 'Churn Reason_Product dissatisfaction',
+       'Churn Reason_Service dissatisfaction'],
+      dtype='object')
+2024-06-30 18:46:15,788 - INFO - exploratory_data_analysis.py - Generating summary statistics
+2024-06-30 18:46:15,797 - INFO - exploratory_data_analysis.py - Summary statistics saved to reports/summary_statistics.csv
+2024-06-30 18:46:15,797 - INFO - exploratory_data_analysis.py - Generating distribution plot for 'Tenure Months'
+2024-06-30 18:46:15,994 - INFO - exploratory_data_analysis.py - Generating distribution plot for 'Monthly Charges'
+2024-06-30 18:46:16,129 - INFO - exploratory_data_analysis.py - Generating distribution plot for 'Total Charges'
+2024-06-30 18:46:16,259 - INFO - exploratory_data_analysis.py - Generating correlation heatmap
+2024-06-30 18:46:17,702 - INFO - exploratory_data_analysis.py - Correlation heatmap saved
+2024-06-30 18:46:17,702 - INFO - exploratory_data_analysis.py - Generating distribution plot for Internet Service_Fiber optic by Churn Label
+2024-06-30 18:49:30,426 - INFO - exploratory_data_analysis.py - Loading data from data/processed/processed_data.csv
+2024-06-30 18:49:30,433 - INFO - exploratory_data_analysis.py - Data loaded successfully from data/processed/processed_data.csv
+2024-06-30 18:49:30,433 - INFO - exploratory_data_analysis.py - Starting Exploratory Data Analysis (EDA)
+2024-06-30 18:49:30,433 - INFO - exploratory_data_analysis.py - Data columns: Index(['Latitude', 'Longitude', 'Tenure Months', 'Monthly Charges',
+       'Total Charges', 'Churn Value', 'Churn Score', 'CLTV', 'Gender_Male',
+       'Senior Citizen_Yes', 'Partner_Yes', 'Dependents_Yes',
+       'Phone Service_Yes', 'Multiple Lines_No phone service',
+       'Multiple Lines_Yes', 'Internet Service_Fiber optic',
+       'Internet Service_No', 'Online Security_No internet service',
+       'Online Security_Yes', 'Online Backup_No internet service',
+       'Online Backup_Yes', 'Device Protection_No internet service',
+       'Device Protection_Yes', 'Tech Support_No internet service',
+       'Tech Support_Yes', 'Streaming TV_No internet service',
+       'Streaming TV_Yes', 'Streaming Movies_No internet service',
+       'Streaming Movies_Yes', 'Contract_One year', 'Contract_Two year',
+       'Paperless Billing_Yes', 'Payment Method_Credit card (automatic)',
+       'Payment Method_Electronic check', 'Payment Method_Mailed check',
+       'Churn Reason_Attitude of support person',
+       'Churn Reason_Competitor had better devices',
+       'Churn Reason_Competitor made better offer',
+       'Churn Reason_Competitor offered higher download speeds',
+       'Churn Reason_Competitor offered more data', 'Churn Reason_Deceased',
+       'Churn Reason_Don't know', 'Churn Reason_Extra data charges',
+       'Churn Reason_Lack of affordable download/upload speed',
+       'Churn Reason_Lack of self-service on Website',
+       'Churn Reason_Limited range of services',
+       'Churn Reason_Long distance charges', 'Churn Reason_Moved',
+       'Churn Reason_Network reliability',
+       'Churn Reason_Poor expertise of online support',
+       'Churn Reason_Poor expertise of phone support',
+       'Churn Reason_Price too high', 'Churn Reason_Product dissatisfaction',
+       'Churn Reason_Service dissatisfaction'],
+      dtype='object')
+2024-06-30 18:49:30,436 - INFO - exploratory_data_analysis.py - Generating summary statistics
+2024-06-30 18:49:30,447 - INFO - exploratory_data_analysis.py - Summary statistics saved to reports/summary_statistics.csv
+2024-06-30 18:49:30,447 - INFO - exploratory_data_analysis.py - Generating distribution plot for 'Tenure Months'
+2024-06-30 18:49:30,662 - INFO - exploratory_data_analysis.py - Generating distribution plot for 'Monthly Charges'
+2024-06-30 18:49:30,794 - INFO - exploratory_data_analysis.py - Generating distribution plot for 'Total Charges'
+2024-06-30 18:49:30,915 - INFO - exploratory_data_analysis.py - Generating correlation heatmap
+2024-06-30 18:49:32,269 - INFO - exploratory_data_analysis.py - Correlation heatmap saved
+2024-06-30 18:49:32,270 - INFO - exploratory_data_analysis.py - Generating distribution plot for Gender_Male by Churn Value
+2024-06-30 18:49:32,381 - INFO - exploratory_data_analysis.py - Generating distribution plot for Senior Citizen_Yes by Churn Value
+2024-06-30 18:49:32,491 - INFO - exploratory_data_analysis.py - Generating distribution plot for Partner_Yes by Churn Value
+2024-06-30 18:49:32,640 - INFO - exploratory_data_analysis.py - Generating distribution plot for Dependents_Yes by Churn Value
+2024-06-30 18:49:32,743 - INFO - exploratory_data_analysis.py - Generating distribution plot for Phone Service_Yes by Churn Value
+2024-06-30 18:49:32,873 - INFO - exploratory_data_analysis.py - Generating distribution plot for Multiple Lines_No phone service by Churn Value
+2024-06-30 18:49:33,006 - INFO - exploratory_data_analysis.py - Generating distribution plot for Multiple Lines_Yes by Churn Value
+2024-06-30 18:49:33,116 - INFO - exploratory_data_analysis.py - Generating distribution plot for Internet Service_Fiber optic by Churn Value
+2024-06-30 18:49:33,219 - INFO - exploratory_data_analysis.py - Generating distribution plot for Internet Service_No by Churn Value
+2024-06-30 18:49:33,324 - INFO - exploratory_data_analysis.py - Generating distribution plot for Online Security_No internet service by Churn Value
+2024-06-30 18:49:33,430 - INFO - exploratory_data_analysis.py - Generating distribution plot for Online Security_Yes by Churn Value
+2024-06-30 18:49:33,533 - INFO - exploratory_data_analysis.py - Generating distribution plot for Online Backup_No internet service by Churn Value
+2024-06-30 18:49:33,639 - INFO - exploratory_data_analysis.py - Generating distribution plot for Online Backup_Yes by Churn Value
+2024-06-30 18:49:33,740 - INFO - exploratory_data_analysis.py - Generating distribution plot for Device Protection_No internet service by Churn Value
+2024-06-30 18:49:33,844 - INFO - exploratory_data_analysis.py - Generating distribution plot for Device Protection_Yes by Churn Value
+2024-06-30 18:49:33,959 - INFO - exploratory_data_analysis.py - Generating distribution plot for Tech Support_No internet service by Churn Value
+2024-06-30 18:49:34,087 - INFO - exploratory_data_analysis.py - Generating distribution plot for Tech Support_Yes by Churn Value
+2024-06-30 18:49:34,207 - INFO - exploratory_data_analysis.py - Generating distribution plot for Streaming TV_No internet service by Churn Value
+2024-06-30 18:49:34,332 - INFO - exploratory_data_analysis.py - Generating distribution plot for Streaming TV_Yes by Churn Value
+2024-06-30 18:49:34,440 - INFO - exploratory_data_analysis.py - Generating distribution plot for Streaming Movies_No internet service by Churn Value
+2024-06-30 18:49:34,557 - INFO - exploratory_data_analysis.py - Generating distribution plot for Streaming Movies_Yes by Churn Value
+2024-06-30 18:49:34,663 - INFO - exploratory_data_analysis.py - Generating distribution plot for Contract_One year by Churn Value
+2024-06-30 18:49:34,774 - INFO - exploratory_data_analysis.py - Generating distribution plot for Contract_Two year by Churn Value
+2024-06-30 18:49:34,880 - INFO - exploratory_data_analysis.py - Generating distribution plot for Paperless Billing_Yes by Churn Value
+2024-06-30 18:49:35,006 - INFO - exploratory_data_analysis.py - Generating distribution plot for Payment Method_Credit card (automatic) by Churn Value
+2024-06-30 18:49:35,125 - INFO - exploratory_data_analysis.py - Generating distribution plot for Payment Method_Electronic check by Churn Value
+2024-06-30 18:49:35,280 - INFO - exploratory_data_analysis.py - Generating distribution plot for Payment Method_Mailed check by Churn Value
+2024-06-30 18:49:35,387 - INFO - exploratory_data_analysis.py - EDA completed
+2024-07-03 17:27:45,775 - INFO - feature_engineering.py - Loading data from data/processed/processed_data.csv
+2024-07-03 17:27:45,786 - INFO - feature_engineering.py - Data loaded successfully from data/processed/processed_data.csv
+2024-07-03 17:27:45,786 - INFO - feature_engineering.py - Starting feature engineering
+2024-07-03 17:27:45,786 - INFO - feature_engineering.py - Creating interaction terms
+2024-07-03 17:27:45,791 - INFO - feature_engineering.py - Aggregating binary columns to create new features
+2024-07-03 17:27:45,794 - INFO - feature_engineering.py - Normalizing numerical features
+2024-07-03 17:27:45,795 - INFO - feature_engineering.py - Feature engineering completed
+2024-07-03 17:27:45,812 - INFO - feature_engineering.py - Enhanced data saved to data/processed/enhanced_data.csv
+2024-07-03 17:32:43,763 - INFO - model.py - Loading data from data/processed/enhanced_data.csv
+2024-07-03 17:32:43,771 - INFO - model.py - Data loaded successfully from data/processed/enhanced_data.csv
+2024-07-03 17:32:43,771 - INFO - model.py - Starting model training
+2024-07-03 17:32:43,772 - INFO - model.py - Splitting data into training and testing sets
+2024-07-03 17:32:43,774 - INFO - model.py - Training logistic regression model
+2024-07-03 17:36:28,715 - INFO - model.py - Loading data from data/processed/enhanced_data.csv
+2024-07-03 17:36:28,723 - INFO - model.py - Data loaded successfully from data/processed/enhanced_data.csv
+2024-07-03 17:36:28,723 - INFO - model.py - Starting model training
+2024-07-03 17:36:28,724 - INFO - model.py - Target variable distribution: Churn Value
+1    1869
+Name: count, dtype: int64
+2024-07-03 17:36:28,724 - INFO - model.py - Splitting data into training and testing sets
+2024-07-03 17:36:28,726 - INFO - model.py - Training set target distribution: Churn Value
+1    1495
+Name: count, dtype: int64
+2024-07-03 17:36:28,726 - INFO - model.py - Testing set target distribution: Churn Value
+1    374
+Name: count, dtype: int64
+2024-07-03 17:36:28,726 - ERROR - model.py - Training set contains only one class. Model training requires at least two classes.
+2024-07-03 17:39:58,630 - INFO - model.py - Loading data from data/processed/enhanced_data.csv
+2024-07-03 17:39:58,640 - INFO - model.py - Data loaded successfully from data/processed/enhanced_data.csv
+2024-07-03 17:39:58,640 - INFO - model.py - Starting model training
+2024-07-03 17:39:58,641 - INFO - model.py - Target variable distribution: Churn Value
+1    1869
+Name: count, dtype: int64
+2024-07-03 17:39:58,641 - INFO - model.py - Splitting data into training and testing sets
+2024-07-03 17:39:58,643 - INFO - model.py - Training set target distribution: Churn Value
+1    1495
+Name: count, dtype: int64
+2024-07-03 17:39:58,643 - INFO - model.py - Testing set target distribution: Churn Value
+1    374
+Name: count, dtype: int64
+2024-07-03 17:39:58,643 - INFO - model.py - Applying SMOTE to handle class imbalance
+2024-07-03 17:46:52,344 - INFO - data_preprocessing.py - Loading data from data/raw/Telco_customer_churn.xlsx
+2024-07-03 17:46:53,268 - INFO - data_preprocessing.py - Data loaded successfully
+2024-07-03 17:46:53,269 - INFO - data_preprocessing.py - Starting data preprocessing
+2024-07-03 17:46:53,290 - INFO - data_preprocessing.py - Handled missing values: before = 11, after = 0
+2024-07-03 17:46:53,300 - INFO - data_preprocessing.py - Data preprocessing completed
+2024-07-03 17:46:53,348 - INFO - data_preprocessing.py - Processed data saved to data/processed/processed_data.csv
+2024-07-03 17:47:30,217 - INFO - exploratory_data_analysis.py - Loading data from data/processed/processed_data.csv
+2024-07-03 17:47:30,236 - INFO - exploratory_data_analysis.py - Data loaded successfully from data/processed/processed_data.csv
+2024-07-03 17:47:30,236 - INFO - exploratory_data_analysis.py - Starting Exploratory Data Analysis (EDA)
+2024-07-03 17:47:30,236 - INFO - exploratory_data_analysis.py - Data columns: Index(['Latitude', 'Longitude', 'Tenure Months', 'Monthly Charges',
+       'Total Charges', 'Churn Value', 'Churn Score', 'CLTV', 'Gender_Male',
+       'Senior Citizen_Yes', 'Partner_Yes', 'Dependents_Yes',
+       'Phone Service_Yes', 'Multiple Lines_No phone service',
+       'Multiple Lines_Yes', 'Internet Service_Fiber optic',
+       'Internet Service_No', 'Online Security_No internet service',
+       'Online Security_Yes', 'Online Backup_No internet service',
+       'Online Backup_Yes', 'Device Protection_No internet service',
+       'Device Protection_Yes', 'Tech Support_No internet service',
+       'Tech Support_Yes', 'Streaming TV_No internet service',
+       'Streaming TV_Yes', 'Streaming Movies_No internet service',
+       'Streaming Movies_Yes', 'Contract_One year', 'Contract_Two year',
+       'Paperless Billing_Yes', 'Payment Method_Credit card (automatic)',
+       'Payment Method_Electronic check', 'Payment Method_Mailed check',
+       'Churn Label_Yes', 'Churn Reason_Attitude of support person',
+       'Churn Reason_Competitor had better devices',
+       'Churn Reason_Competitor made better offer',
+       'Churn Reason_Competitor offered higher download speeds',
+       'Churn Reason_Competitor offered more data', 'Churn Reason_Deceased',
+       'Churn Reason_Don't know', 'Churn Reason_Extra data charges',
+       'Churn Reason_Lack of affordable download/upload speed',
+       'Churn Reason_Lack of self-service on Website',
+       'Churn Reason_Limited range of services',
+       'Churn Reason_Long distance charges', 'Churn Reason_Moved',
+       'Churn Reason_Network reliability', 'Churn Reason_No churn',
+       'Churn Reason_Poor expertise of online support',
+       'Churn Reason_Poor expertise of phone support',
+       'Churn Reason_Price too high', 'Churn Reason_Product dissatisfaction',
+       'Churn Reason_Service dissatisfaction'],
+      dtype='object')
+2024-07-03 17:47:30,237 - INFO - exploratory_data_analysis.py - Generating summary statistics
+2024-07-03 17:47:30,244 - INFO - exploratory_data_analysis.py - Summary statistics saved to reports/summary_statistics.csv
+2024-07-03 17:47:30,244 - INFO - exploratory_data_analysis.py - Generating distribution plot for 'Tenure Months'
+2024-07-03 17:47:30,544 - INFO - exploratory_data_analysis.py - Generating distribution plot for 'Monthly Charges'
+2024-07-03 17:47:30,697 - INFO - exploratory_data_analysis.py - Generating distribution plot for 'Total Charges'
+2024-07-03 17:47:30,852 - INFO - exploratory_data_analysis.py - Generating correlation heatmap
+2024-07-03 17:47:32,157 - INFO - exploratory_data_analysis.py - Correlation heatmap saved
+2024-07-03 17:47:32,157 - INFO - exploratory_data_analysis.py - Generating distribution plot for Gender_Male by Churn Value
+2024-07-03 17:47:32,289 - INFO - exploratory_data_analysis.py - Generating distribution plot for Senior Citizen_Yes by Churn Value
+2024-07-03 17:47:32,416 - INFO - exploratory_data_analysis.py - Generating distribution plot for Partner_Yes by Churn Value
+2024-07-03 17:47:32,522 - INFO - exploratory_data_analysis.py - Generating distribution plot for Dependents_Yes by Churn Value
+2024-07-03 17:47:32,635 - INFO - exploratory_data_analysis.py - Generating distribution plot for Phone Service_Yes by Churn Value
+2024-07-03 17:47:32,744 - INFO - exploratory_data_analysis.py - Generating distribution plot for Multiple Lines_No phone service by Churn Value
+2024-07-03 17:47:32,851 - INFO - exploratory_data_analysis.py - Generating distribution plot for Multiple Lines_Yes by Churn Value
+2024-07-03 17:47:32,959 - INFO - exploratory_data_analysis.py - Generating distribution plot for Internet Service_Fiber optic by Churn Value
+2024-07-03 17:47:33,069 - INFO - exploratory_data_analysis.py - Generating distribution plot for Internet Service_No by Churn Value
+2024-07-03 17:47:33,185 - INFO - exploratory_data_analysis.py - Generating distribution plot for Online Security_No internet service by Churn Value
+2024-07-03 17:47:33,374 - INFO - exploratory_data_analysis.py - Generating distribution plot for Online Security_Yes by Churn Value
+2024-07-03 17:47:33,519 - INFO - exploratory_data_analysis.py - Generating distribution plot for Online Backup_No internet service by Churn Value
+2024-07-03 17:47:33,640 - INFO - exploratory_data_analysis.py - Generating distribution plot for Online Backup_Yes by Churn Value
+2024-07-03 17:47:33,746 - INFO - exploratory_data_analysis.py - Generating distribution plot for Device Protection_No internet service by Churn Value
+2024-07-03 17:47:33,859 - INFO - exploratory_data_analysis.py - Generating distribution plot for Device Protection_Yes by Churn Value
+2024-07-03 17:47:33,966 - INFO - exploratory_data_analysis.py - Generating distribution plot for Tech Support_No internet service by Churn Value
+2024-07-03 17:47:34,077 - INFO - exploratory_data_analysis.py - Generating distribution plot for Tech Support_Yes by Churn Value
+2024-07-03 17:47:34,207 - INFO - exploratory_data_analysis.py - Generating distribution plot for Streaming TV_No internet service by Churn Value
+2024-07-03 17:47:34,327 - INFO - exploratory_data_analysis.py - Generating distribution plot for Streaming TV_Yes by Churn Value
+2024-07-03 17:47:34,434 - INFO - exploratory_data_analysis.py - Generating distribution plot for Streaming Movies_No internet service by Churn Value
+2024-07-03 17:47:34,550 - INFO - exploratory_data_analysis.py - Generating distribution plot for Streaming Movies_Yes by Churn Value
+2024-07-03 17:47:34,676 - INFO - exploratory_data_analysis.py - Generating distribution plot for Contract_One year by Churn Value
+2024-07-03 17:47:34,782 - INFO - exploratory_data_analysis.py - Generating distribution plot for Contract_Two year by Churn Value
+2024-07-03 17:47:34,890 - INFO - exploratory_data_analysis.py - Generating distribution plot for Paperless Billing_Yes by Churn Value
+2024-07-03 17:47:34,996 - INFO - exploratory_data_analysis.py - Generating distribution plot for Payment Method_Credit card (automatic) by Churn Value
+2024-07-03 17:47:35,110 - INFO - exploratory_data_analysis.py - Generating distribution plot for Payment Method_Electronic check by Churn Value
+2024-07-03 17:47:35,224 - INFO - exploratory_data_analysis.py - Generating distribution plot for Payment Method_Mailed check by Churn Value
+2024-07-03 17:47:35,350 - INFO - exploratory_data_analysis.py - EDA completed
+2024-07-03 17:47:48,725 - INFO - feature_engineering.py - Loading data from data/processed/processed_data.csv
+2024-07-03 17:47:48,744 - INFO - feature_engineering.py - Data loaded successfully from data/processed/processed_data.csv
+2024-07-03 17:47:48,744 - INFO - feature_engineering.py - Starting feature engineering
+2024-07-03 17:47:48,744 - INFO - feature_engineering.py - Creating interaction terms
+2024-07-03 17:47:48,745 - INFO - feature_engineering.py - Aggregating binary columns to create new features
+2024-07-03 17:47:48,746 - INFO - feature_engineering.py - Normalizing numerical features
+2024-07-03 17:47:48,747 - INFO - feature_engineering.py - Feature engineering completed
+2024-07-03 17:47:48,802 - INFO - feature_engineering.py - Enhanced data saved to data/processed/enhanced_data.csv
+2024-07-03 17:48:10,813 - INFO - model.py - Loading data from data/processed/enhanced_data.csv
+2024-07-03 17:48:10,838 - INFO - model.py - Data loaded successfully from data/processed/enhanced_data.csv
+2024-07-03 17:48:10,839 - INFO - model.py - Starting model training
+2024-07-03 17:48:10,854 - INFO - model.py - Target variable distribution: Churn Value
+0    5174
+1    1869
+Name: count, dtype: int64
+2024-07-03 17:48:10,854 - INFO - model.py - Splitting data into training and testing sets
+2024-07-03 17:48:10,857 - INFO - model.py - Training set target distribution: Churn Value
+0    4139
+1    1495
+Name: count, dtype: int64
+2024-07-03 17:48:10,858 - INFO - model.py - Testing set target distribution: Churn Value
+0    1035
+1     374
+Name: count, dtype: int64
+2024-07-03 17:48:10,858 - INFO - model.py - Applying SMOTE to handle class imbalance
+2024-07-03 17:48:11,188 - INFO - model.py - Resampled training set target distribution: Churn Value
+0    4139
+1    4139
+Name: count, dtype: int64
+2024-07-03 17:48:11,188 - INFO - model.py - Training logistic regression model
+2024-07-03 17:48:11,625 - INFO - model.py - Evaluating the model
+2024-07-03 17:48:11,630 - INFO - model.py - Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1035
+           1       1.00      1.00      1.00       374
+
+    accuracy                           1.00      1409
+   macro avg       1.00      1.00      1.00      1409
+weighted avg       1.00      1.00      1.00      1409
+
+2024-07-03 17:48:11,631 - INFO - model.py - Confusion Matrix:
+[[1035    0]
+ [   0  374]]
+2024-07-03 17:48:11,632 - INFO - model.py - ROC AUC Score: 1.000000
+2024-07-03 17:48:26,006 - INFO - model.py - Loading data from data/processed/enhanced_data.csv
+2024-07-03 17:48:26,029 - INFO - model.py - Data loaded successfully from data/processed/enhanced_data.csv
+2024-07-03 17:48:26,029 - INFO - model.py - Starting model training
+2024-07-03 17:48:26,043 - INFO - model.py - Target variable distribution: Churn Value
+0    5174
+1    1869
+Name: count, dtype: int64
+2024-07-03 17:48:26,044 - INFO - model.py - Splitting data into training and testing sets
+2024-07-03 17:48:26,047 - INFO - model.py - Training set target distribution: Churn Value
+0    4139
+1    1495
+Name: count, dtype: int64
+2024-07-03 17:48:26,047 - INFO - model.py - Testing set target distribution: Churn Value
+0    1035
+1     374
+Name: count, dtype: int64
+2024-07-03 17:48:26,047 - INFO - model.py - Applying SMOTE to handle class imbalance
+2024-07-03 17:48:26,354 - INFO - model.py - Resampled training set target distribution: Churn Value
+0    4139
+1    4139
+Name: count, dtype: int64
+2024-07-03 17:48:26,355 - INFO - model.py - Training logistic regression model
+2024-07-03 17:48:26,814 - INFO - model.py - Evaluating the model
+2024-07-03 17:48:26,820 - INFO - model.py - Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      1035
+           1       1.00      1.00      1.00       374
+
+    accuracy                           1.00      1409
+   macro avg       1.00      1.00      1.00      1409
+weighted avg       1.00      1.00      1.00      1409
+
+2024-07-03 17:48:26,820 - INFO - model.py - Confusion Matrix:
+[[1035    0]
+ [   0  374]]
+2024-07-03 17:48:26,822 - INFO - model.py - ROC AUC Score: 1.000000
+2024-07-03 17:48:26,823 - INFO - model.py - Model saved to models/logistic_regression_model.pkl
+2024-07-16 16:20:48,606 - INFO - evaluate.py - Loading data from data/processed/enhanced_data.csv
+2024-07-16 16:20:48,630 - INFO - evaluate.py - Data loaded successfully from data/processed/enhanced_data.csv
+2024-07-16 16:20:48,630 - INFO - evaluate.py - Loading model from models/logistic_regression_model.pkl
+2024-07-16 16:20:48,739 - INFO - evaluate.py - Model loaded successfully from models/logistic_regression_model.pkl
+2024-07-16 16:20:48,739 - INFO - evaluate.py - Starting model evaluation
+2024-07-16 16:20:48,755 - INFO - evaluate.py - Generating classification report
+2024-07-16 16:20:48,757 - INFO - evaluate.py - Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5174
+           1       1.00      1.00      1.00      1869
+
+    accuracy                           1.00      7043
+   macro avg       1.00      1.00      1.00      7043
+weighted avg       1.00      1.00      1.00      7043
+
+2024-07-16 16:20:48,757 - INFO - evaluate.py - Generating confusion matrix
+2024-07-16 16:20:48,757 - INFO - evaluate.py - Confusion Matrix:
+[[5174    0]
+ [   0 1869]]
+2024-07-16 16:20:48,757 - INFO - evaluate.py - Calculating ROC AUC score
+2024-07-16 16:20:48,766 - INFO - evaluate.py - ROC AUC Score: 1.000000
+2024-07-16 16:20:48,766 - INFO - evaluate.py - Calculating accuracy score
+2024-07-16 16:20:48,766 - INFO - evaluate.py - Accuracy Score: 1.000000
+2024-07-16 16:20:49,164 - INFO - evaluate.py - Model evaluation completed
+2024-07-16 16:24:02,801 - INFO - gen_report.py - Creating PDF report
+2024-07-16 16:24:04,263 - INFO - gen_report.py - PDF report saved to reports/final_report.pdf
+2024-07-16 16:25:32,781 - INFO - gen_report.py - Creating PDF report
+2024-07-16 16:25:34,321 - INFO - gen_report.py - PDF report saved to reports/generated_report.pdf
+2024-07-16 16:30:47,231 - INFO - evaluate.py - Loading data from data/processed/enhanced_data.csv
+2024-07-16 16:30:47,265 - INFO - evaluate.py - Data loaded successfully from data/processed/enhanced_data.csv
+2024-07-16 16:30:47,265 - INFO - evaluate.py - Loading model from models/logistic_regression_model.pkl
+2024-07-16 16:30:47,333 - INFO - evaluate.py - Model loaded successfully from models/logistic_regression_model.pkl
+2024-07-16 16:30:47,337 - INFO - evaluate.py - Starting model evaluation
+2024-07-16 16:30:47,345 - INFO - evaluate.py - Generating classification report
+2024-07-16 16:30:47,348 - INFO - evaluate.py - Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00      5174
+           1       1.00      1.00      1.00      1869
+
+    accuracy                           1.00      7043
+   macro avg       1.00      1.00      1.00      7043
+weighted avg       1.00      1.00      1.00      7043
+
+2024-07-16 16:30:47,348 - INFO - evaluate.py - Generating confusion matrix
+2024-07-16 16:30:47,348 - INFO - evaluate.py - Confusion Matrix:
+[[5174    0]
+ [   0 1869]]
+2024-07-16 16:30:47,348 - INFO - evaluate.py - Calculating ROC AUC score
+2024-07-16 16:30:47,358 - INFO - evaluate.py - ROC AUC Score: 1.000000
+2024-07-16 16:30:47,358 - INFO - evaluate.py - Calculating accuracy score
+2024-07-16 16:30:47,358 - INFO - evaluate.py - Accuracy Score: 1.000000
+2024-07-16 16:30:47,763 - INFO - evaluate.py - Model evaluation completed
+2024-07-16 16:30:48,580 - INFO - gen_report.py - Creating PDF report
+2024-07-16 16:30:50,124 - INFO - gen_report.py - PDF report saved to reports/generated_report.pdf
