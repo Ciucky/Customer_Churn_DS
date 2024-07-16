@@ -1,7 +1,7 @@
 # Customer Churn Prediction Project
 
 ## Project Overview
-This project aims to analyze and predict customer churn for a telecom company using the Telco Customer Churn dataset. The primary goal is to identify the factors that contribute to customer churn and develop a predictive model to forecast which customers are likely to leave the company. The insights gained from this analysis can help the company implement targeted retention strategies.
+This project aims to analyse and predict customer churn for a telecom company using the Telco Customer Churn dataset. The primary goal is to identify the factors that contribute to customer churn and develop a predictive model to forecast which customers are likely to leave the company. The insights gained from this analysis can help the company implement targeted retention strategies.
 
 ## Project Structure
 ```
